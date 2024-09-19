@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {  background-color: white;  padding: 10px;  text-align: center;}
+.footer {  background-color: #e9d8f4;  color: #58257b;  padding: 5px;  text-align: center;height: 50px;}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, white);
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-slider {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 240px;
+}
+
+.slides input[type ='radio']
+{
+    display: none;
+}
+
+.slides{
+    width: 500%;
+    display: flex;
+}
+
+.active {
+    transition: 1s;
+}
+
+.navigation{
+    position: absolute;
+    width:1000px;
+    height: 30px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation label {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0px 20px;
+}
+
+.navigation label:hover{
+    background: aqua;
+}
+
+#radio1:checked ~ .active{
+    margin-left: 0;
+}
+#radio2:checked ~ .active{
+    margin-left: -20%;
+}
+#radio3:checked ~ .active{
+    margin-left: -40%;
+}
+#radio4:checked ~ .active{
+    margin-left: -60%;
+}
+#radio5:checked ~ .active{
+    margin-left: -80%;
+}
+#radio6:checked ~ .active{
+    margin-left: -100%;
+}
+#radio7:checked ~ .active{
+    margin-left: -120%;
+}
+#radio8:checked ~ .active{
+    margin-left: -140%;
+}
+#radio9:checked ~ .active{
+    margin-left: -160%;
+}
+@media screen and (min-width:600px) 
+    {    .column {    width: 33.3%;  }}
+
+.topnav {  overflow: hidden;  background-color: gray; margin-top: -130px; width: 1000px;margin-left: 240px;}
+.topnav a {  float: left;  display: block;  color: #f2f2f2;  text-align: center;  padding: 14px 16px;  text-decoration: none;}
+.topnav a:hover {  background-color: #FFCC00;  color: black;  font-weight: bold}
+.column1 {  float: left;  width: 59%;  padding: 15px;display: flex;margin-left: 220px; }
+.column2 {  float: left;  width: 20%;  padding: 15px;margin-top: -20px;margin-left: -220px; font-family: 'Courier New', Courier, monospace;}
+.row:after {  content: "";  display: table;  clear: both;}
+b{   
+    color: gray;
+}
+.column3 { 
+    font-size: 18px; 
+    float: left;  
+    width: 35%;  
+    margin-left: 15px;
+    margin-top: -25px;
+    overflow: hidden;  
+    float: left;  
+    display: block;       
+    background-color: white;  
+    font-weight: bold;display: block;
+    height: 950px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.column4 {  
+    font-size: 18px; 
+    float: left;  
+    width: 35%;  
+    margin-left: 15px;
+    margin-top: -25px;
+    overflow: hidden;  
+    float: left;  
+    display: block;       
+    background-color: whitesmoke;  
+    font-weight: bold;display: block;
+    height: 950px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column3 a{
+    display: block;
+    border: 1px solid yellow;
+    border-color: white white black white;
+    color: gray;
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.list-item {
+    flex: 1;
+    height: 20px;
+    margin: 0 12px;
+    position: relative;
+    margin-left: 0;
+    color:gray;
+    padding-bottom: 20px;
+    border-bottom: black 1px solid;
+}
+  
+.list-item:hover .list-item-wrapper {
+    display: block;
+}
+  
+.list-item-wrapper {
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    display: none;
+    list-style: none;
+    z-index: 1;
+}
+  
+.item {
+    border: 1px solid white;
+}
+img {  
+    opacity: 1.0;  
+    filter: alpha(opacity=50);
+}
+img:hover { 
+    opacity: 0.5;  
+    filter: alpha(opacity=100); 
+}

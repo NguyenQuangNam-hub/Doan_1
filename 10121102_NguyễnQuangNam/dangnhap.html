@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!--my css -->
+    <link rel="stylesheet" href="loginn.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="text-center" id="menu-bar-logo"><a href="index.html">
+                    <span>LO</span><span>GIN</span>
+                </a>
+            </div>
+        </header>
+        <form action="admin.html">
+            <div class="field email">
+                <div class="input-area">
+                    <input type="text" placeholder="Email">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email không được trống</div>
+            </div>
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Mật khẩu">
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Mật khẩu không được trống</div>
+            </div>
+            <div class="pass-txt"><a href="#">Quên mật khẩu?</a></div>
+            <input type="submit" value="Login">
+        </form>
+        <div class="sign-txt">Chưa là thành viên? <a href="dangky.html">Đăng ký</a></div>
+    </div>
+    <!-- my script -->
+    <script src="login3.js"></script>
+</body>
+
+</html>

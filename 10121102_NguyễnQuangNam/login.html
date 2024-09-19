@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Đăng ký tại đây</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="password">
+                <button>Đăng ký</button>
+                <span>Sử dụng tài khoản khác</span>
+                <div class="social-container">
+                    <a href="https://vi-vn.facebook.com/" class="social">
+                        <i class="fa fa-facebook-square" style="font-size:30px"></i>
+                    </a>
+                    <a href="https://www.google.com/account/about/" class="social">
+                        <i class="fa fa-google-plus" style="font-size:30px"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social">
+                        <i class="fa fa-linkedin-square" style="font-size:30px"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Đăng nhập</h1>
+                <input type="email" placeholder="Email">
+                <input type ="password" placeholder="password">
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id ="checkbox">
+                        <label>Ghi nhớ đăng nhập</label>
+                    </div>
+                    <div class ="pass-link">
+                        <a href="#">Quên mật khẩu ?</a>
+                    </div>
+                </div>
+                <button>Đăng Nhập</button>
+                <span>Sử dụng tài khoản khác</span>
+                <div class="social-container">
+                    <a href="https://vi-vn.facebook.com/" class="social">
+                        <i class="fa fa-facebook-square" style="font-size:30px"></i>
+                    </a>
+                    <a href="https://www.google.com/account/about/" class="social">
+                        <i class="fa fa-google-plus" style="font-size:30px"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social">
+                        <i class="fa fa-linkedin-square" style="font-size:30px"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="tittle">Xin chào</h1>
+                    <p>Nếu bạn có tài khoản khác, đăng nhập tại đây nhé !</p>
+                    <button class="ghost" id="login">Đăng nhập
+                        <i class="lni lni-arrow-left login"></i>
+                    </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="tittle"> Đăng Ký <br> Ở Đây Nhé !</h1>
+                    <p>Nếu bạn không có tài khoản, đăng ký cùng chúng tôi và bắt đầu shopping nhé !</p>
+                    <button class="ghost" id="register">Đăng ký
+                        <i class="lni lni-arrow-right register"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
