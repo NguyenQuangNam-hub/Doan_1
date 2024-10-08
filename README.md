@@ -1,10 +1,18 @@
-WEBSITE THÔNG TIN NƯỚC HOA TOKUKATSU
-Giới thiệu
-Dự án "Website Thông Tin Nước Hoa Tokukatsu" là một nền tảng trực tuyến được thiết kế để cung cấp thông tin chi tiết và cập nhật về các loại nước hoa từ thương hiệu Tokukatsu. Website này nhằm mục đích cung cấp cho người dùng một nguồn tài nguyên đáng tin cậy để tìm hiểu về các sản phẩm nước hoa, bao gồm mô tả sản phẩm, thành phần, đánh giá, và các thông tin liên quan khác.
+TOKUKATSU PERFUME INFORMATION WEBSITE
 
-Tính năng chính
-Danh mục sản phẩm: Hiển thị danh sách tất cả các loại nước hoa của Tokukatsu với thông tin chi tiết về từng sản phẩm.
-Tìm kiếm và lọc: Cho phép người dùng tìm kiếm và lọc các sản phẩm dựa trên các tiêu chí như loại nước hoa, hương liệu, và giá.
-Chi tiết sản phẩm: Cung cấp thông tin chi tiết về từng sản phẩm, bao gồm mô tả, thành phần, và các đánh giá của người dùng.
-Đánh giá và nhận xét: Cho phép người dùng viết và đọc đánh giá về các sản phẩm nước hoa.
-Thông tin liên hệ: Cung cấp thông tin liên hệ để người dùng có thể gửi câu hỏi hoặc phản hồi.
+Introduction
+The "Tokukatsu Perfume Information Website" is an online platform designed to provide detailed and up-to-date information about perfumes from the Tokukatsu brand. This website aims to offer users a reliable resource to learn about various perfume products, including product descriptions, ingredients, reviews, and other relevant details.
+
+Key Features
+
+Product Catalog: Displays a list of all Tokukatsu perfumes with detailed information about each product.
+Search and Filter: Allows users to search and filter products based on criteria such as perfume type, fragrance notes, and price.
+Product Details: Provides detailed information about each product, including descriptions, ingredients, and user reviews.
+Ratings and Reviews: Enables users to write and read reviews of perfume products.
+Contact Information: Offers contact details for users to send inquiries or feedback.
+
+
+
+
+
+
